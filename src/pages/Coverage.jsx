@@ -23,21 +23,21 @@ const coverageItems = [
     title: 'تغطية مباشرة من قلب الحدث',
     desc: 'تغطيات ميدانية حية للفعاليات والأحداث الإقليمية والدولية بأسلوب صحفي احترافي.',
     icon: 'mdi:broadcast',
-    img: '/images/coverage.png',
+    img: '/images/coverage.webp',
   },
   {
     type: 'استقصائي',
     title: 'تقارير معمّقة وتحليلية',
     desc: 'تقارير صحفية متعمقة تتناول قضايا المجتمع والإعلام الرقمي بموضوعية ومصداقية.',
     icon: 'mdi:text-search',
-    img: '/images/content.png',
+    img: '/images/content.webp',
   },
   {
     type: 'حوارات',
     title: 'لقاءات مع شخصيات بارزة',
     desc: 'حوارات صحفية مع شخصيات مؤثرة في مجالات الإعلام والأعمال والثقافة.',
     icon: 'mdi:account-voice',
-    img: '/images/collab.png',
+    img: '/images/collab.webp',
   },
 ];
 

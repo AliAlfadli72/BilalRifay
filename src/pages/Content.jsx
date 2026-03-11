@@ -15,15 +15,15 @@ const categories = [
 ];
 
 const items = [
-  { id: 1, cat: 'digital', title: 'ريل إبداعي — يوم في حياتي', views: '2.1M', likes: '148K', img: '/images/content.png' },
-  { id: 2, cat: 'coverage', title: 'تغطية فعالية دبي الكبرى', views: '1.8M', likes: '92K', img: '/images/coverage.png' },
-  { id: 3, cat: 'collab', title: 'شراكة مع علامة تجارية رائدة', views: '1.2M', likes: '87K', img: '/images/collab.png' },
-  { id: 4, cat: 'digital', title: 'أسلوب حياة المذيع الرقمي', views: '950K', likes: '74K', img: '/images/content.png' },
-  { id: 5, cat: 'interviews', title: 'لقاء مع شخصية بارزة', views: '3.2M', likes: '210K', img: '/images/coverage.png' },
-  { id: 6, cat: 'media', title: 'تقرير: الإعلام الرقمي في العالم العربي', views: '1.5M', likes: '120K', img: '/images/collab.png' },
-  { id: 7, cat: 'coverage', title: 'تغطية مهرجان أبوظبي', views: '870K', likes: '65K', img: '/images/coverage.png' },
-  { id: 8, cat: 'collab', title: 'حملة مع علامة تقنية عالمية', views: '1.1M', likes: '90K', img: '/images/content.png' },
-  { id: 9, cat: 'digital', title: 'كواليس الإعلام الرقمي', views: '780K', likes: '55K', img: '/images/collab.png' },
+  { id: 1, cat: 'digital', title: 'ريل إبداعي — يوم في حياتي', views: '2.1M', likes: '148K', img: '/images/content.webp' },
+  { id: 2, cat: 'coverage', title: 'تغطية فعالية دبي الكبرى', views: '1.8M', likes: '92K', img: '/images/coverage.webp' },
+  { id: 3, cat: 'collab', title: 'شراكة مع علامة تجارية رائدة', views: '1.2M', likes: '87K', img: '/images/collab.webp' },
+  { id: 4, cat: 'digital', title: 'أسلوب حياة المذيع الرقمي', views: '950K', likes: '74K', img: '/images/content.webp' },
+  { id: 5, cat: 'interviews', title: 'لقاء مع شخصية بارزة', views: '3.2M', likes: '210K', img: '/images/coverage.webp' },
+  { id: 6, cat: 'media', title: 'تقرير: الإعلام الرقمي في العالم العربي', views: '1.5M', likes: '120K', img: '/images/collab.webp' },
+  { id: 7, cat: 'coverage', title: 'تغطية مهرجان أبوظبي', views: '870K', likes: '65K', img: '/images/coverage.webp' },
+  { id: 8, cat: 'collab', title: 'حملة مع علامة تقنية عالمية', views: '1.1M', likes: '90K', img: '/images/content.webp' },
+  { id: 9, cat: 'digital', title: 'كواليس الإعلام الرقمي', views: '780K', likes: '55K', img: '/images/collab.webp' },
 ];
 
 const fadeUp = { hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0 } };

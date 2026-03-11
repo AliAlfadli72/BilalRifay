@@ -85,10 +85,11 @@ export default function About() {
               >
                 <div className="relative rounded-[2rem] overflow-hidden shadow-card-hover border border-[#E5E7EB]">
                   <img
-                    src="/images/about.png"
+                    src="/images/about.webp"
                     alt="بلال رفاعي — صحفي وصانع محتوى"
                     className="w-full h-[480px] object-cover object-top"
                     loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute bottom-0 inset-x-0 h-28 bg-gradient-to-t from-white/70 to-transparent" />
                 </div>

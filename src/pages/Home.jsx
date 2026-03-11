@@ -38,9 +38,9 @@ const stats = [
 
 // ── Content preview ──
 const previews = [
-  { cat: 'محتوى رقمي', title: 'ريلز إبداعية', icon: 'mdi:play-circle-outline', img: '/images/content.png' },
-  { cat: 'تغطيات', title: 'تغطيات ميدانية', icon: 'mdi:microphone-outline', img: '/images/coverage.png' },
-  { cat: 'شراكات', title: 'تعاونات إعلامية', icon: 'mdi:briefcase-outline', img: '/images/collab.png' },
+  { cat: 'محتوى رقمي', title: 'ريلز إبداعية', icon: 'mdi:play-circle-outline', img: '/images/content.webp' },
+  { cat: 'تغطيات', title: 'تغطيات ميدانية', icon: 'mdi:microphone-outline', img: '/images/coverage.webp' },
+  { cat: 'شراكات', title: 'تعاونات إعلامية', icon: 'mdi:briefcase-outline', img: '/images/collab.webp' },
 ];
 
 // ── Media identity cards ──
@@ -142,10 +142,11 @@ function HeroSection() {
 
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden shadow-card-hover border border-[#E5E7EB]">
               <img
-                src="/images/hero.png"
+                src="/images/hero.webp"
                 alt="بلال رفاعي — صحفي وصانع محتوى"
                 className="w-full h-[560px] object-cover object-top"
                 fetchpriority="high"
+                decoding="async"
               />
               {/* Subtle gradient at bottom */}
               <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-white/60 to-transparent" />
@@ -272,10 +273,11 @@ function MediaIdentitySection() {
           >
             <div className="relative rounded-[2rem] overflow-hidden shadow-card-hover border border-[#E5E7EB]">
               <img
-                src="/images/about.png"
+                src="/images/about.webp"
                 alt="بلال رفاعي في الميدان الإعلامي"
                 className="w-full h-[420px] object-cover object-top"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-white/50 via-transparent to-transparent" />
             </div>
@@ -402,10 +404,11 @@ function PartnershipCTASection() {
             {/* Collab image */}
             <div className="relative rounded-[1.5rem] overflow-hidden shadow-xl border border-white/10">
               <img
-                src="/images/collab.png"
+                src="/images/collab.webp"
                 alt="شراكات بلال رفاعي الإعلامية"
                 className="w-full h-[280px] object-cover object-top"
                 loading="lazy"
+                decoding="async"
               />
               <div className="absolute inset-0 bg-gradient-to-l from-[#111827]/60 to-transparent" />
             </div>
